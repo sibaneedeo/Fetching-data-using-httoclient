@@ -1,0 +1,35 @@
+<div style="text-align: center;">
+   <h1>Call API in Angular</h1>
+<table border="1">
+    <!-- <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Username</th>
+        <th>Website</th>
+        <th>Address</th>
+        <th>Company</th>
+    </tr> -->
+    <tr *ngFor="let item of li" (click)="showdata(item)">
+        Name : {{item.name}}
+        
+        <!-- <td {{item.id}}></td>
+        <td {{item.email}}></td>
+        <td {{item.phone}}></td>
+        <td {{item.username}}></td>
+        <td {{item.website}}></td>
+        <td {{item.address.street}},{{item.address.city}},{{item.address.zipcode}}></td>
+        <td {{item.company}}></td> -->
+    </tr>
+    
+
+
+</table>
+
+<div>
+    
+    <h1>{{lis}}</h1>
+</div>
+
+</div>
